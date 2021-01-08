@@ -61,7 +61,7 @@ function OrdersLocation({ onChangeLocation }: Props) {
                     Selecione onde o pedido deve ser entregue:
                 </h3>
                 <div className="filter-container">
-                    <AsyncSelect placeholder="Digite um endereço para entregar o peddo"
+                    <AsyncSelect placeholder="Digite um endereço para entregar o pedido"
                                  className="filter" 
                                  loadOptions={loadOptions}
                                  onChange={value => handleChangeSelect(value as Place)}/>
